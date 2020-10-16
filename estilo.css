@@ -1,0 +1,78 @@
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.titulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.button{
+    background-color: #01b95d;
+}
+.verdezap{
+    color:white;
+    background-color: rgb(2, 136, 125);
+    box-shadow: .5px 1px 10px 1px #888888;
+}
+.menu a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+
+.menulink1::after{    
+    content:"";
+    width: 100px;
+    position: absolute;
+    line-height: 5px;
+    background-color: white;
+    top: 25px;
+    left: -30px;
+    height: 6px;
+}
+.menulink2::after{    
+    content:"";
+    width: 150px;
+    position: absolute;
+    line-height: 5px;
+    background-color: white;
+    top: 25px;
+    left: -15px;
+    height: 6px;
+}
+
+/* Campo Telefone  */
+
+.telefone{
+    width: 80%;
+    border: 1.4px solid rgb(2, 136, 125);
+    border-radius: 50px;
+}
+.gerarlink{
+    cursor: pointer;
+    color: rgb(2, 136, 125);
+    background-color: white;;
+}
+.vermais{
+    margin: 0;
+    cursor: pointer;
+    color: rgb(2, 136, 125);
+    background-color: white;;
+}
+
+
+textarea{
+    margin: 0;
+    border: 1.4px solid rgb(2, 136, 125);
+
+}
+
+.codigozap{
+    display:none;
+}
+.campomensagem{
+    display:none;
+}
