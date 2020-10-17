@@ -1,3 +1,23 @@
+/* Adicionando Classes e removendo */
+$(document).ready(function(){
+    $('#menuLinkId1').click(function(){
+        $('#startchat').show(); 
+        $('#pagEncurtar').hide();
+        $('#menuLinkId2').removeClass("menulink2");
+        $('#menuLinkId1').addClass("menulink1"); 
+    });
+});
+/* Adicionando Classes e removendo */
+$(document).ready(function(){
+    $('#menuLinkId2').click(function(){
+        $('#startchat').hide();
+        $('#pagEncurtar').show();
+        $('#menuLinkId1').removeClass("menulink1");
+        $('#menuLinkId2').addClass("menulink2");
+    });
+});
+
+
 /* Esconder Campo de Mensagem */
 $(document).ready(function(){
     $("#abrircampo").click(function(){
