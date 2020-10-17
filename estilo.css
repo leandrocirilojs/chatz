@@ -21,11 +21,15 @@
     color: white;
     position: relative;
 }
+/* Menu Link 1 e 2 */
 
+.mao{
+    cursor: pointer;
+}
 
 .menulink1::after{    
     content:"";
-    width: 100px;
+    width: 150px;
     position: absolute;
     line-height: 5px;
     background-color: white;
@@ -42,7 +46,9 @@
     top: 25px;
     left: -15px;
     height: 6px;
-}
+} 
+/*Fim Menu Link 1 e 2 */
+
 
 /* Campo Telefone  */
 
