@@ -3,6 +3,8 @@ function criarLink() {
     var numero = document.querySelector("#number").value;
     numero = numero.replace(/\D/g, ''); //REGEX Deixar Apenas Numeros
     // Verificar se Tem o DDI do Pais
+    //numero.trim(); // Tirar espaço antes e depois
+    alert(numero);
     if (numero.length < 13) {
         numero = "55" + numero;
     }
