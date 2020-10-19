@@ -39,7 +39,7 @@
 }
 .menulink2::after{    
     content:"";
-    width: 150px;
+    width: 110px;
     position: absolute;
     line-height: 5px;
     background-color: white;
