@@ -29,7 +29,7 @@
 
 .menulink1::after{    
     content:"";
-    width: 150px;
+    width: 100px;
     position: absolute;
     line-height: 5px;
     background-color: white;
@@ -39,12 +39,12 @@
 }
 .menulink2::after{    
     content:"";
-    width: 110px;
+    width: 100px;
     position: absolute;
     line-height: 5px;
     background-color: white;
     top: 25px;
-    left: -15px;
+    left: -10px;
     height: 6px;
 } 
 /*Fim Menu Link 1 e 2 */
