@@ -59,7 +59,7 @@ button {
     width: calc(100% - 2rem);
     margin: 1rem;
     padding: 0.75rem;
-    background-color: lime;
+    background-color: #25d366;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -80,7 +80,8 @@ button:hover {
 .autocomplete-options button {
     margin: 0.5rem 0;
     padding: 0.5rem;
-    background-color: #f1f1f1;
+    background-color: lime;
+    color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
@@ -88,7 +89,7 @@ button:hover {
 }
 
 .autocomplete-options button:hover {
-    background-color: #ddd;
+    background-color: #32cd32;
 }
 
 .info {
